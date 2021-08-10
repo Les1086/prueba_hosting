@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Ingresar usuario</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+   <!--Leslie Noemi Armijo Martínez
+   Ejercicio 4 Php y Mysql-->
+</head>
+<body>
+    <h1 align="center">Alta de estudiantes</h1>
+    <form action="ingreso.php" method="POST">
+        <table border="1" bgcolor="#FBD46D" align="center">
+            <tr>
+                <td>Ingrese su nombre:</td>
+                <td><input type="text" name="nombre"></td>
+            </tr>
+            <tr>
+                <td>Ingrese mail:</td>
+                <td><input type="text" name="mail"></td>
+            </tr>
+            <tr>
+                <td>Seleccione el curso:</td>
+                <td align="center">
+                    <select name="codigo_curso">
+                        <option value="1">PHP</option>
+                        <option value="2">ASP</option>
+                        <option value="3">JSP</option>
+                    </select>
+                </td>
+            </tr>
+            <tr align="center">
+                <td><input type="submit" value="Registrar"></td>
+                <td><input type="reset" value="Borrar información"></td>
+            </tr>
+        </table>
+
+    </form>
+    
+</body>
+</html>
